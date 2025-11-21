@@ -65,7 +65,7 @@ See [docs/dev-setup.md](./docs/dev-setup.md) for detailed setup instructions.
 
 ## 🏗️ Project Status
 
-**Current Phase:** Phase 2 - Design System Expansion ✅
+**Current Phase:** Phase 3 - Public Pages ✅
 
 ### Phase 0 - Foundation ✅
 - [x] Next.js 14 setup with TypeScript
@@ -95,7 +95,15 @@ See [docs/dev-setup.md](./docs/dev-setup.md) for detailed setup instructions.
 - [x] Services page (/leistungen) with all service offerings
 - [x] Team page (/team) with staff profiles
 
-**Next Phase:** Phase 3 - Additional Public Pages (Über uns, Kontakt, Legal pages)
+### Phase 3 - Public Pages ✅
+- [x] About Us page (/ueber-uns) with company story and values
+- [x] Contact page (/kontakt) with contact form
+- [x] Legal Notice page (/impressum)
+- [x] Privacy Policy page (/datenschutz) - DSG & GDPR compliant
+- [x] Terms & Conditions page (/agb)
+- [x] Navigation and footer links updated
+
+**Next Phase:** Phase 4 - Booking Engine (Core Functionality)
 
 ## 🛠️ Development
 
