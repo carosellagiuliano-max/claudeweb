@@ -65,7 +65,7 @@ See [docs/dev-setup.md](./docs/dev-setup.md) for detailed setup instructions.
 
 ## 🏗️ Project Status
 
-**Current Phase:** Phase 1 - Database & Auth ✅
+**Current Phase:** Phase 2 - Design System Expansion ✅
 
 ### Phase 0 - Foundation ✅
 - [x] Next.js 14 setup with TypeScript
@@ -89,7 +89,13 @@ See [docs/dev-setup.md](./docs/dev-setup.md) for detailed setup instructions.
 - [x] Seed script with test data
 - [x] Comprehensive documentation
 
-**Next Phase:** Phase 2 - Design System Expansion
+### Phase 2 - Design System Expansion ✅
+- [x] Additional UI components (Card, Input, Label, Badge, Avatar, Skeleton, Textarea)
+- [x] Feature components (ServiceCard, TeamCard)
+- [x] Services page (/leistungen) with all service offerings
+- [x] Team page (/team) with staff profiles
+
+**Next Phase:** Phase 3 - Additional Public Pages (Über uns, Kontakt, Legal pages)
 
 ## 🛠️ Development
 
