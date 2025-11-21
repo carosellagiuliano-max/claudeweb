@@ -58,20 +58,38 @@ See [docs/dev-setup.md](./docs/dev-setup.md) for detailed setup instructions.
 ## 📖 Documentation
 
 - [Architecture Overview](./docs/architecture.md) - System architecture and design decisions
+- [Data Model](./docs/data-model.md) - Complete database schema documentation
+- [Security & RLS](./docs/security-and-rls.md) - Security policies and access control
 - [Development Setup](./docs/dev-setup.md) - Local development instructions
 - [Full Specification](./claude.md) - Complete product and technical specification
 
 ## 🏗️ Project Status
 
-**Current Phase:** Phase 0 - Foundation ✅
+**Current Phase:** Phase 1 - Database & Auth ✅
 
+### Phase 0 - Foundation ✅
 - [x] Next.js 14 setup with TypeScript
 - [x] Tailwind CSS + shadcn/ui design system
 - [x] Project structure and folder organization
 - [x] Modern UI components (Header, Footer, Homepage)
 - [x] Base documentation
 
-**Next Phase:** Phase 1 - Database & Auth (Coming soon)
+### Phase 1 - Database & Auth ✅
+- [x] Complete database schema (8 migrations)
+  - Core tables (salons, profiles, roles, user_roles)
+  - Customers & staff management
+  - Services & categories with price history
+  - Appointments with double-booking prevention
+  - Schedules & availability (opening hours, staff schedules, absences)
+  - Booking rules & configuration
+  - Row-Level Security (RLS) policies
+  - Auth triggers & profile sync
+- [x] TypeScript type definitions
+- [x] Supabase client library setup
+- [x] Seed script with test data
+- [x] Comprehensive documentation
+
+**Next Phase:** Phase 2 - Design System Expansion
 
 ## 🛠️ Development
 
