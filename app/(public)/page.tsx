@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, Clock, Scissors } from "lucide-react";
+import { ServiceCard } from "@/components/shared/ServiceCard";
 
 export default function HomePage() {
   return (
@@ -93,6 +94,50 @@ export default function HomePage() {
               Alle Leistungen ansehen →
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Featured Services */}
+      <section className="container-custom py-20">
+        <div className="mb-12 text-center">
+          <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
+            Unsere Leistungen
+          </h2>
+          <p className="mx-auto max-w-2xl text-lg text-schnittwerk-600">
+            Professionelle Haarpflege und Styling für jeden Anlass
+          </p>
+        </div>
+
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <ServiceCard
+            name="Damenhaarschnitt"
+            description="Professioneller Haarschnitt inkl. Waschen und Föhnen"
+            category="Haarschnitte"
+            duration={60}
+            price={7500}
+            isPopular
+          />
+          <ServiceCard
+            name="Herrenhaarschnitt"
+            description="Moderner Herrenhaarschnitt inkl. Waschen"
+            category="Haarschnitte"
+            duration={45}
+            price={5500}
+          />
+          <ServiceCard
+            name="Komplettfärbung"
+            description="Komplette Haarfärbung inkl. Pflege und Styling"
+            category="Färbungen"
+            duration={120}
+            price={14500}
+            isPopular
+          />
+        </div>
+
+        <div className="mt-12 text-center">
+          <Button size="lg" variant="outline" asChild>
+            <Link href="/leistungen">Alle Leistungen ansehen</Link>
+          </Button>
         </div>
       </section>
 
